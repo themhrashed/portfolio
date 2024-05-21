@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: auto 200px;
+}
+.banner-section {
+  height: 100vh;
+  width: 100vw;
+  padding: 60px 0px 60px 0px;
+  overflow-x: hidden;
+  background-color: black;
+}
+.banner-section .container {
+  position: relative;
+  height: 100%;
+}
+.banner-section img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.text-white {
+  color: white;
+}
+.flex {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 30px;
+}
+.right-box ul {
+  list-style: none;
+}
+
+.Box a {
+  color: white;
+}
+
+button {
+  font-size: 20px;
+}
